@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Presentation() {
   return (
-    <section className="py-10">
+    <section className="py-10 md:w-3/4 w-5/6 m-auto">
       <h1 className="text-white text-center text-6xl roboto font-semibold">
         Bem vindo ao IOTech
       </h1>
@@ -17,17 +17,17 @@ export default function Presentation() {
           Ver mais
         </a>
         <a
-          href="#about"
+          href="#contact"
           className="text-[#C81D25] border hover:scale-110 transition bg-white  my-2 font-bold p-3 px-4 text-xl rounded-lg max-w-fit"
         >
           Contato
         </a>
       </div>
-      <div className="flex justify-between mt-14 mx-44">
-        <p className="text-white text-4xl font-extralight text-center w-full h-full my-auto">
+      <div className="flex md:justify-between md:flex-row flex-col-reverse items-center mt-14">
+        <p className="text-white md:text-4xl text-2xl font-extralight text-center w-full h-full my-auto">
           Oferecemos soluções de software e automação sob medida.
         </p>
-        <img src="computer.png" className="w-4/6" />
+        <img src="computer.png" className="md:w-4/6 w-full" />
       </div>
     </section>
   );
