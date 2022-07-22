@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Tecnologies() {
   return (
-    <section className="w-3/4 m-auto">
-      <h1 className="text-center roboto font-semibold text-5xl text-[#273036]">
+    <section className="md:w-3/4 w-5/6 m-auto">
+      <h1 className="text-center roboto font-semibold md:text-5xl text-3xl text-[#273036]">
         Tecnologias
       </h1>
       <p className="text-center font-extralight text-lg text-[#273036]">
@@ -12,32 +12,32 @@ export default function Tecnologies() {
       <div className="grid grid-cols-3 md:flex md:justify-center my-5">
         <img
           src="tecnologies/cpp.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="C++"
         />
         <img
           src="tecnologies/firebase.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="Firebase"
         />
         <img
           src="tecnologies/flutter.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="Flutter"
         />
         <img
           src="tecnologies/html.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="HTML5"
         />
         <img
           src="tecnologies/css.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="CSS3"
         />
         <img
           src="tecnologies/js.svg"
-          className="w-full md:w-1/12 hover:scale-110 transition"
+          className="w-full md:w-1/6 hover:scale-110 transition"
           alt="Javascript"
         />
       </div>

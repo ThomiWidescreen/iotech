@@ -7,11 +7,11 @@ export default function About() {
         <img src="tech.svg" className="w-2/5 p-10 md:block hidden no" />
 
         <div className="flex flex-col items-center">
-          <h1 className="mb-6 mt-6 md:mb-0 text-5xl text-[#273036] font-semibold roboto">
+          <h1 className="mb-6 mt-6 md:mb-4 md:text-5xl text-3xl text-[#273036] font-semibold roboto">
             Sobre nós
           </h1>
 
-          <p className="md:text-2xl text-base font-extralight text-[#273036] md:leading-9 md:text-left text-center p-5 roboto">
+          <p className="md:text-[1.5vw] sm:text-base text-xs font-extralight text-[#273036] md:leading-9 md:text-left text-center roboto">
             Em nossa sociedade moderna, tudo está conectado: de computadores a
             carros, telefones, casas e todos os dispositivos eletrônicos
             existentes. Todos esses objetos separados estão vinculados por meio

@@ -3,10 +3,10 @@ import React from "react";
 export default function Presentation() {
   return (
     <section className="py-10 md:w-3/4 w-5/6 m-auto">
-      <h1 className="text-white text-center text-6xl roboto font-semibold">
+      <h1 className="text-white text-center md:text-6xl text-4xl roboto font-semibold">
         Bem vindo ao IOTech
       </h1>
-      <p className="text-white text-center text-xl font-extralight tracking-[.3em] py-2">
+      <p className="text-white text-center md:text-xl text-md font-extralight tracking-[.3em] py-2">
         Bem vindo ao futuro
       </p>
       <div className="flex justify-center gap-3">

@@ -39,7 +39,7 @@ export default function Footer() {
     //   </div>
     // </footer>
     <footer className="bg-[#0B3954] pb-20">
-      <section className="grid md:grid-cols-3 grid-cols-1 w-2/3 mx-auto">
+      <section className="grid md:grid-cols-3 grid-cols-1 md:w-3/4 w-5/6 mx-auto">
         <div className="flex justify-center md:pb-0 pb-10 md:border-r-2">
           <a className="roboto text-6xl hover:scale-110 transition cursor-pointer py-3 select-none">
             <div
