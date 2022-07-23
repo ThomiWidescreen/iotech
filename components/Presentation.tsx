@@ -4,11 +4,11 @@ import ComputerPic from "../public/computer.png";
 
 export default function Presentation() {
   return (
-    <section className="sm:py-10 py-3 md:w-3/4 w-5/6 m-auto">
+    <section className="sm:py-20 py-3 md:w-3/4 w-5/6 m-auto">
       <h1 className="text-white text-center md:text-6xl text-4xl roboto font-semibold">
         Bem vindo ao IOTech
       </h1>
-      <p className="text-white text-center md:text-xl text-md font-extralight tracking-[.3em] py-2">
+      <p className="text-white text-center md:text-xl text-md font-extralight tracking-[.4em] py-2">
         Bem vindo ao futuro
       </p>
       <div className="flex justify-center gap-3">

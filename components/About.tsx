@@ -2,16 +2,14 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="md:w-3/4 w-5/6 m-auto">
-      <div className="flex justify-center">
-        <img src="tech.svg" className="w-2/5 p-10 md:block hidden no" />
-
-        <div className="flex flex-col items-center">
+    <section className="md:w-3/4 w-5/6 m-auto py-7">
+      <div className="flex justify-end">
+        <div className="flex flex-col items-center md:w-2/3 w-3/4">
           <h1 className="mb-6 mt-6 md:mb-4 md:text-5xl text-3xl text-[#273036] font-semibold roboto">
             Sobre nós
           </h1>
 
-          <p className="md:text-[1.5vw] sm:text-base text-xs font-extralight text-[#273036] md:leading-9 md:text-left text-center roboto">
+          <p className="lg:text-[1.3vw] sm:text-base text-xs font-light roboto text-gray-700 lg:leading-8 text-center ">
             Em nossa sociedade moderna, tudo está conectado: de computadores a
             carros, telefones, casas e todos os dispositivos eletrônicos
             existentes. Todos esses objetos separados estão vinculados por meio
