@@ -5,7 +5,6 @@ import Presentation from "../components/Presentation";
 import About from "../components/About";
 import Proyects from "../components/Proyects";
 import Tecnologies from "../components/Tecnologies";
-import Wave from "../components/Wave";
 import Waves from "../components/Waves";
 import Footer from "../components/Footer";
 
