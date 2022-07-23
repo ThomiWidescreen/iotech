@@ -13,6 +13,13 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>IOTech</title>
+        <meta name="description" content="Software development business" />
+        <meta name="keywords" content="Development, Web Design, Aplication" />
+        <meta name="author" content="IOTech Team" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
       </Head>
       <header className="bg-[#C81D25]">
         <NavBar />

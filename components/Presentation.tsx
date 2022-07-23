@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import ComputerPic from "../public/computer.png";
 
 export default function Presentation() {
   return (
@@ -27,7 +29,11 @@ export default function Presentation() {
         <p className="text-white md:text-4xl text-2xl font-extralight text-center w-full h-full my-auto">
           Oferecemos soluções de software e automação sob medida.
         </p>
-        <img src="computer.png" className="md:w-4/6 w-full" />
+        <div className="md:w-[200%] w-full">
+          <Image src={ComputerPic} alt="Computer" layout="responsive" />
+        </div>
+        {/* <Image className="md:w-4/6 w-full" src={ComputerPic} alt="Computer" /> */}
+        {/* <img src="computer.png" className="md:w-4/6 w-full" /> */}
       </div>
     </section>
   );

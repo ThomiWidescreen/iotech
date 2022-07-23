@@ -1,7 +1,10 @@
 const NavBar = () => {
   return (
     <nav className="flex md:flex-row md:justify-between  flex-col items-center  md:w-3/4 w-5/6 m-auto pt-3">
-      <a className="roboto text-6xl hover:scale-110 transition cursor-pointer py-3 select-none">
+      <a
+        href="#home"
+        className="roboto text-6xl hover:scale-110 transition cursor-pointer py-3 select-none"
+      >
         <div
           className="text-red-600 inline"
           style={{
