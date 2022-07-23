@@ -39,8 +39,8 @@ export default function Footer() {
     //   </div>
     // </footer>
     <footer className="bg-[#0B3954] pb-20">
-      <section className="grid md:grid-cols-3 grid-cols-1 md:w-3/4 w-5/6 mx-auto">
-        <div className="flex justify-center md:pb-0 pb-10 md:border-r-2">
+      <section className="grid lg:grid-cols-3 grid-cols-1 md:w-3/4 w-5/6 mx-auto">
+        <div className="flex justify-center lg:border-r-2 p-5">
           <a className="roboto text-6xl hover:scale-110 transition cursor-pointer py-3 select-none">
             <div
               className="text-red-600 inline"
@@ -54,21 +54,27 @@ export default function Footer() {
             <div className="text-white inline">ech</div>
           </a>
         </div>
-        <div className="flex flex-col justify-center md:pb-0 pb-10 md:border-r-2">
+        <div className="flex flex-col justify-center lg:border-r-2 p-5">
           <div className="text-white flex justify-center items-center gap-1">
             <MailIcon className="w-1/12" />
-            <p className="text-xl">iotech.develoment@gmail.com</p>
+            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+              iotech.develoment@gmail.com
+            </p>
           </div>
           <div className="text-white flex justify-center items-center gap-1">
             <PhoneIcon className="w-1/12" />
-            <p className="text-xl">+55 54 9 9706 9803 (BR)</p>
+            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+              +55 54 9 9706 9803 (BR)
+            </p>
           </div>
           <div className="text-white flex justify-center items-center gap-1">
             <PhoneIcon className="w-1/12" />
-            <p className="text-xl">+54 9 3542 46-1287 (AR)</p>
+            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+              +54 9 3542 46-1287 (AR)
+            </p>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center p-5">
           <button className="border-2 border-white rounded-lg text-white text-xl font-semibold roboto py-3 px-5 transition hover:scale-110">
             Enviar mensagem
           </button>
