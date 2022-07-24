@@ -51,7 +51,7 @@ export default function Proyects() {
               id="modal"
             >
               <div role="alert" className="container mx-auto w-11/12 md:w-2/3">
-                <div className="relative py-8 px-5 md:px-10 bg-white shadow-md rounded-xl border border-gray-400">
+                <div className="relative py-8 px-5 md:px-10 bg-[#bfd7ea] shadow-md rounded-xl border border-gray-400">
                   <img
                     src="hidroteclogo.svg"
                     className="w-1/3 mx-auto"
@@ -135,7 +135,7 @@ export default function Proyects() {
             id="modal"
           >
             <div role="alert" className="container mx-auto w-11/12 md:w-2/3">
-              <div className="relative py-8 px-5 md:px-10 bg-white shadow-md rounded-xl border border-gray-400">
+              <div className="relative py-8 px-5 md:px-10 bg-[#bfd7ea] shadow-md rounded-xl border border-gray-400 max-h-[93vh]">
                 <div className="flex flex-col items-center">
                   <img
                     src="hidrotecapplogo.jpg"

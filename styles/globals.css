@@ -29,7 +29,7 @@ html {
 }
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
-  animation-duration: 7s;
+  animation-duration: 13s;
 }
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
