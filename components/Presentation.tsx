@@ -26,7 +26,7 @@ export default function Presentation() {
         </a>
       </div>
       <div className="flex md:justify-between md:flex-row flex-col-reverse items-center mt-14">
-        <p className="text-white md:text-4xl text-2xl font-extralight text-center w-full h-full my-auto">
+        <p className="text-white md:text-[2.5vw] md:leading-[2.5vw] text-2xl font-extralight text-center w-full h-full my-auto">
           Oferecemos soluções de software e automação sob medida.
         </p>
         <div className="md:w-[200%] w-full">

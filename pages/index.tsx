@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <Presentation />
       </header>
       <div className="parallaxBackground">
-        <Waves color="#C81D25" inverted={true} />
+        <Waves id="about" color="#C81D25" inverted={true} />
 
         <About />
         <Waves color="#087E8B" />
@@ -34,9 +34,9 @@ const Home: NextPage = () => {
       <section className="pageBody bg-[#087E8B]">
         <Proyects />
       </section>
-      <Waves color="#087E8B" inverted={true} />
+      <Waves id="technologies" color="#087E8B" inverted={true} />
       <Tecnologies />
-      <Waves color="#0B3954" />
+      <Waves id="contact" color="#0B3954" />
       <Footer />
     </div>
   );

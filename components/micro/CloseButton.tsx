@@ -5,8 +5,8 @@ export default function CloseButton() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="icon icon-tabler icon-tabler-x"
-      width="20"
-      height="20"
+      width="30"
+      height="30"
       viewBox="0 0 24 24"
       strokeWidth="2.5"
       stroke="currentColor"

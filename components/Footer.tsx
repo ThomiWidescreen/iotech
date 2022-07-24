@@ -4,8 +4,8 @@ import { MailIcon, ChatIcon, PhoneIcon } from "@heroicons/react/solid";
 export default function Footer() {
   return (
     <footer className="bg-[#0B3954] pb-20">
-      <section className="grid lg:grid-cols-3 grid-cols-1 md:w-3/4 w-5/6 mx-auto">
-        <div className="flex justify-center lg:border-r-2 p-5">
+      <section className="grid lg:grid-cols-3 grid-cols-1 md:w-4/5 w-5/6 mx-auto gap-3">
+        <div className="flex justify-center p-5">
           <a
             href="#home"
             className="roboto text-6xl hover:scale-110 transition cursor-pointer py-3 select-none"
@@ -22,22 +22,22 @@ export default function Footer() {
             <div className="text-white inline">ech</div>
           </a>
         </div>
-        <div className="flex flex-col justify-center lg:border-r-2 p-5">
+        <div className="flex flex-col justify-center p-5">
           <div className="text-white flex justify-center items-center gap-1">
             <MailIcon className="w-1/12" />
-            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+            <p className="lg:text-[1vw] md:text-[2vw] sm:text-[3vw] text-[4vw]">
               iotech.develoment@gmail.com
             </p>
           </div>
           <div className="text-white flex justify-center items-center gap-1">
             <PhoneIcon className="w-1/12" />
-            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+            <p className="lg:text-[1vw] md:text-[2vw] sm:text-[3vw] text-[4vw]">
               +55 54 9 9706 9803 (BR)
             </p>
           </div>
           <div className="text-white flex justify-center items-center gap-1">
             <PhoneIcon className="w-1/12" />
-            <p className="lg:text-xl sm:text-[2vw] text-[3.5vw]">
+            <p className=" lg:text-[1vw] md:text-[2vw] sm:text-[3vw] text-[4vw]">
               +54 9 3542 46-1287 (AR)
             </p>
           </div>

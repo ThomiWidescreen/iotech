@@ -3,12 +3,14 @@ import React from "react";
 export default function Waves({
   color,
   inverted,
+  id,
 }: {
   color: string;
   inverted?: boolean;
+  id?: string;
 }) {
   return (
-    <div style={inverted ? { transform: "rotate(180deg)" } : {}}>
+    <div id={id} style={inverted ? { transform: "rotate(180deg)" } : {}}>
       <svg
         className="waves"
         xmlns="http://www.w3.org/2000/svg"

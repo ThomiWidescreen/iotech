@@ -12,32 +12,32 @@ export default function Tecnologies() {
       <div className="grid grid-cols-3 md:flex md:justify-center my-5">
         <img
           src="tecnologies/cpp.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="C++"
         />
         <img
           src="tecnologies/firebase.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="Firebase"
         />
         <img
           src="tecnologies/flutter.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="Flutter"
         />
         <img
           src="tecnologies/html.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="HTML5"
         />
         <img
           src="tecnologies/css.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="CSS3"
         />
         <img
           src="tecnologies/js.svg"
-          className="w-full md:w-1/6 hover:scale-110 transition"
+          className="w-full md:w-[13%] hover:scale-110 transition"
           alt="Javascript"
         />
       </div>
