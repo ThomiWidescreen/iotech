@@ -13,7 +13,11 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>IOTech</title>
-        <meta name="description" content="Software development business" />
+        <link rel="icon" type="image/x-icon" href="icon.ico" />
+        <meta
+          name="description"
+          content="Empresa de desenvolvimento de software."
+        />
         <meta name="keywords" content="Development, Web Design, Aplication" />
         <meta name="author" content="IOTech Team" />
         <meta

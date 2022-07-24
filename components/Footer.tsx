@@ -71,22 +71,22 @@ export default function Footer() {
                 </h1>
                 <form
                   action=""
-                  className="flex flex-col items-center gap-5 p-10 w-1/2 mx-auto"
+                  className="flex flex-col items-center gap-5 p-10 lg:w-1/2 md:w-2/3 sm:w-3/4 w-full mx-auto"
                 >
                   <input
-                    className="w-full rounded-lg border-2 border-black p-2"
+                    className="w-full rounded-[4px] border-2 border-gray-600 p-2"
                     type="text"
                     id="affair"
                     placeholder="Asunto"
                   />
                   <input
-                    className="w-full rounded-lg border-2 border-black p-2"
+                    className="w-full rounded-[4px] border-2 border-gray-600 p-2"
                     type="text"
                     id="email"
                     placeholder="E-mail"
                   />
                   <textarea
-                    className="w-full rounded-lg border-2 border-black p-2"
+                    className="w-full rounded-[4px] border-2 border-gray-600 p-2"
                     name="message"
                     id="message"
                     cols={30}
@@ -94,7 +94,7 @@ export default function Footer() {
                     placeholder="Mensajem"
                   ></textarea>
                   <input
-                    className="font-bold text-2xl text-white bg-black py-2 px-5 border-4 border-black rounded-lg cursor-pointer p-2 transition hover:scale-110"
+                    className="font-bold text-2xl text-white bg-black py-2 px-5 border-4  rounded-xl cursor-pointer p-2 transition hover:scale-110"
                     type="submit"
                     value="Enviar"
                   />
