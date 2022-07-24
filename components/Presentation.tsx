@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ComputerPic from "../public/computer.png";
+import ComputerPic from "../public/computer.webp";
 
 export default function Presentation() {
   return (

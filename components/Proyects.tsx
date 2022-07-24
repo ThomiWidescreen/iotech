@@ -24,7 +24,7 @@ export default function Proyects() {
       <div className="md:mt-10 mt-3">
         <div className="flex justify-center">
           <img
-            src="hidrotec.png"
+            src="hidrotec.webp"
             className="md:w-1/4 w-1/2  hover:scale-110 transition md:p-0 p-5 object-scale-down"
             alt="Mobile app example."
           />
@@ -59,26 +59,28 @@ export default function Proyects() {
                   />
                   <section className="flex">
                     <img
-                      src="hidrotec-front.png"
+                      src="hidrotec-front.webp"
                       alt="Mobile aplication"
                       className="md:w-1/3 w-5/12 object-scale-down"
                     />
                     <div className="m-auto roboto lg:text-[1.2vw] md:text-[2vw] sm:text-[2.5vw] text-[3vw]">
                       <p className="p-3">
-                        ✅ Controle e configuração de temperatura remota da
-                        piscina.
+                        ✅ Controlador de temperatura por minuto, hora, dia.
                       </p>
                       <p className="p-3">
-                        ✅ Display da temperatura do tempo em tempo real.
+                        ✅ Indicador de temperatura dentro da câmara
+                        frigorífica.
+                      </p>
+                      <p className="p-3">✅ Automação de refrigeração.</p>
+                      <p className="p-3">
+                        ✅ Indicador de consumo elétrico e baixa pressão.
                       </p>
                       <p className="p-3">
-                        ✅ Controle automático e manual da temperatura da água.
+                        ✅ Ligar/Desligar a câmara de refrigerante a partir do
+                        aplicativo móvel.
                       </p>
                       <p className="p-3">
-                        ✅ Controle da bomba a partir do aplicativo móvel.
-                      </p>
-                      <p className="p-3">
-                        ✅ Controle remoto de luzes LED do dispositivo móvel.
+                        ✅ Alarme de temperatura de acordo com sua configuração.
                       </p>
                     </div>
                   </section>
@@ -120,7 +122,7 @@ export default function Proyects() {
             </button>
           </div>
           <img
-            src="tempcontroller.png"
+            src="tempcontroller.webp"
             className="md:w-1/4 w-1/2 hover:scale-110 transition md:p-0 p-5 object-scale-down"
             alt="Mobile app example."
           />
@@ -147,26 +149,27 @@ export default function Proyects() {
                 </div>
                 <section className="flex">
                   <img
-                    src="tempcontroller-front.png"
+                    src="tempcontroller-front.webp"
                     alt="Mobile aplication"
                     className="md:w-1/3 w-5/12 object-scale-down"
                   />
                   <div className="m-auto roboto lg:text-[1.2vw] md:text-[2vw] sm:text-[2.5vw] text-[3vw]">
                     <p className="p-3">
-                      ✅ Controle e configuração de temperatura remota da
-                      piscina.
+                      ✅ Controlador de temperatura por minuto, hora, dia.
                     </p>
                     <p className="p-3">
-                      ✅ Display da temperatura do tempo em tempo real.
+                      ✅ Indicador de temperatura dentro da câmara frigorífica.
+                    </p>
+                    <p className="p-3">✅ Automação de refrigeração.</p>
+                    <p className="p-3">
+                      ✅ Indicador de consumo elétrico e baixa pressão.
                     </p>
                     <p className="p-3">
-                      ✅ Controle automático e manual da temperatura da água.
+                      ✅ Ligar/Desligar a câmara de refrigerante a partir do
+                      aplicativo móvel.
                     </p>
                     <p className="p-3">
-                      ✅ Controle da bomba a partir do aplicativo móvel.
-                    </p>
-                    <p className="p-3">
-                      ✅ Controle remoto de luzes LED do dispositivo móvel.
+                      ✅ Alarme de temperatura de acordo com sua configuração.
                     </p>
                   </div>
                 </section>
