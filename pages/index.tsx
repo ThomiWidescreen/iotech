@@ -1,49 +1,18 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import NavBar from "../components/NavBar";
-import Presentation from "../components/Presentation";
-import About from "../components/About";
-import Proyects from "../components/Proyects";
-import Tecnologies from "../components/Tecnologies";
-import Waves from "../components/Waves";
-import Footer from "../components/Footer";
+import { NextPage } from "next";
+import { useRouter } from "next/router";
+import En from "../translations/en-US";
+import Es from "../translations/es-AR";
+import Pt from "../translations/pt-BR";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>IOTech</title>
-        <link rel="icon" type="image/x-icon" href="icon.ico" />
-        <meta
-          name="description"
-          content="Empresa de desenvolvimento de software."
-        />
-        <meta name="keywords" content="Development, Web Design, Aplication" />
-        <meta name="author" content="IOTech Team" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
-      </Head>
-      <header className="bg-[#C81D25]">
-        <NavBar />
-        <Presentation />
-      </header>
-      <div className="parallaxBackground">
-        <Waves id="about" color="#C81D25" inverted={true} />
-
-        <About />
-        <Waves color="#087E8B" />
-      </div>
-      <section className="pageBody bg-[#087E8B]">
-        <Proyects />
-      </section>
-      <Waves id="technologies" color="#087E8B" inverted={true} />
-      <Tecnologies />
-      <Waves id="contact" color="#0B3954" />
-      <Footer />
-    </div>
-  );
+  const { locale } = useRouter();
+  if (locale === "" || locale === "pt-BR") {
+    return <Pt />;
+  } else if (locale === "en-US") {
+    return <En />;
+  } else {
+    return <Es />;
+  }
 };
 
 export default Home;

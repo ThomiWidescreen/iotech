@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import CloseButton from "../components/micro/CloseButton";
-import { MailIcon, ChatIcon, PhoneIcon } from "@heroicons/react/solid";
+import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
 
-export default function Footer() {
+export default function Footer({
+  textInfo,
+}: {
+  textInfo: {
+    messageButton: string;
+    message: string;
+    send: string;
+    affair: string;
+  };
+}) {
   const [contactModal, setContactModal] = useState<boolean>(false);
 
   const toggleContactModal = () => {
@@ -54,7 +63,7 @@ export default function Footer() {
             className="border-2 border-white rounded-lg text-white text-xl font-semibold roboto py-3 px-5 transition hover:scale-110"
             onClick={toggleContactModal}
           >
-            Enviar mensagem
+            {textInfo.messageButton}
           </button>
         </div>
       </section>
@@ -67,7 +76,7 @@ export default function Footer() {
             <div role="alert" className="container mx-auto w-11/12 md:w-2/3">
               <div className="relative py-8 px-5 md:px-10 bg-[#bfd7ea] shadow-md rounded-xl border border-gray-400">
                 <h1 className="lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5.5vw] text-center font-bold">
-                  Enviar mesajem
+                  {textInfo.messageButton}
                 </h1>
                 <form
                   action=""
@@ -77,7 +86,7 @@ export default function Footer() {
                     className="w-full rounded-[4px] border-2 border-gray-600 p-2"
                     type="text"
                     id="affair"
-                    placeholder="Asunto"
+                    placeholder={textInfo.affair}
                   />
                   <input
                     className="w-full rounded-[4px] border-2 border-gray-600 p-2"
@@ -91,12 +100,12 @@ export default function Footer() {
                     id="message"
                     cols={30}
                     rows={10}
-                    placeholder="Mensajem"
+                    placeholder={textInfo.message}
                   ></textarea>
                   <input
                     className="font-bold text-2xl text-white bg-black py-2 px-5 border-4  rounded-xl cursor-pointer p-2 transition hover:scale-110"
                     type="submit"
-                    value="Enviar"
+                    value={textInfo.send}
                   />
                 </form>
                 <button
