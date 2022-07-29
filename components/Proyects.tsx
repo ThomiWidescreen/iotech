@@ -70,8 +70,10 @@ export default function Proyects({
                   className="md:w-1/3 w-5/12 object-scale-down"
                 />
                 <div className="m-auto roboto lg:text-[1.2vw] md:text-[2vw] sm:text-[2.5vw] text-[3vw]">
-                  {textInfo.hidrotectFeatures.map((singleText) => (
-                    <p className="p-3">✅ {singleText}</p>
+                  {textInfo.hidrotectFeatures.map((singleText, index) => (
+                    <p className="p-3" key={index}>
+                      ✅ {singleText}
+                    </p>
                   ))}
                 </div>
               </section>
@@ -134,8 +136,10 @@ export default function Proyects({
                 className="md:w-1/3 w-5/12 object-scale-down"
               />
               <div className="m-auto roboto lg:text-[1.2vw] md:text-[2vw] sm:text-[2.5vw] text-[3vw]">
-                {textInfo.tempControllerFeatures.map((singleText) => (
-                  <p className="p-3">✅ {singleText}</p>
+                {textInfo.tempControllerFeatures.map((singleText, index) => (
+                  <p className="p-3" key={index}>
+                    ✅ {singleText}
+                  </p>
                 ))}
               </div>
             </section>
